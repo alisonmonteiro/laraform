@@ -6,8 +6,8 @@ use PHPUnit_Framework_TestCase;
 
 class LaraformTest extends PHPUnit_Framework_TestCase
 {
-	public function testLaraForm()
-	{
-
-	}
+    public function testLaraForm()
+    {
+        $this->assertEquals(true, true);
+    }
 }
